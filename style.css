@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+    transition: .6s ease;
+}
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+    color: darkslategray;
+}
+#home::before{
+    content:"";
+    position: absolute;
+    top: 54;
+    left: 0;
+    
+    width: 39%;
+    height: 529.5px;
+    background: url('IMG_20200916_150839~6.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: .8;
+} 
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+    /* border: 1px solid solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.headings{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid darkslategrey;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    margin: 30px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+    color: black;
+    box-shadow: 0 0 10px darkslategray, 0 0 15px darkslategray;
+    font-weight: bold;
+}
+
+
+.navbars{
+    display: flex;
+    
+    background-color: black;
+    top: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.navbars ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.navbars ul li img{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 55px;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px 25px;
+}

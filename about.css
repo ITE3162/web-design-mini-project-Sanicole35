@@ -1,0 +1,49 @@
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 140px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+#pic{
+    display:flex;
+    
+}
+
+#pic img{
+    display: flex;
+    width: 34%;
+    height: 525.6px;
+    right: 0;
+    flex-direction: column;
+    content:"";
+    position: absolute;
+    padding: 9.1px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 235px;
+    padding-top: 10px;
+    color: black;
+}
+
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: black;
+} 
+
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}
